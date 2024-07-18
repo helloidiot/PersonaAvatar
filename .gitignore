@@ -44,6 +44,7 @@
 Saved/*
 !Saved/SaveGames
 Saved/SaveGames/PluginUpdateSaveData.sav
+/Saved/SaveGames/PluginSettingsSaveData.sav
 
 #################################
 # External Plugins #
