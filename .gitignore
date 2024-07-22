@@ -32,6 +32,11 @@
 **/.history
 
 #################################
+# Rider #
+#################################
+.idea
+
+#################################
 # Project specific Files #
 #################################
 
@@ -52,6 +57,7 @@ Saved/SaveGames/PluginUpdateSaveData.sav
 /Plugins/OWLLivestreamingToolkit
 /Plugins/VaRestPlugin
 /Plugins/Ace
+/Plugins/Developer/*
 
 #################################
 # File types #
