@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class personaCore : ModuleRules
+public class PersonaAvatar : ModuleRules
 {
-	public personaCore(ReadOnlyTargetRules Target) : base(Target)
+	public PersonaAvatar(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

@@ -10,7 +10,7 @@
  * 
  */
 UCLASS()
-class PERSONACORE_API UHTTPFunctions : public UBlueprintFunctionLibrary
+class PERSONAAVATAR_API UHTTPFunctions : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 

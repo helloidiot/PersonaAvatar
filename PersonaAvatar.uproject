@@ -1,11 +1,11 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.3",
+	"EngineAssociation": "5.4",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "personaCore",
+			"Name": "PersonaAvatar",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
@@ -60,7 +60,7 @@
 		{
 			"Name": "RuntimeAudioImporter",
 			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/81fd278e318e4235a028d3fdf46bf036"
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/186998d72e2a495b8bfc65e74ea1f6a9"
 		},
 		{
 			"Name": "RuntimeFilesDownloader",
@@ -80,18 +80,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "PersonaAvatar",
-			"Enabled": false
-		},
-		{
-			"Name": "Avatar",
-			"Enabled": false
-		},
-		{
-			"Name": "Director",
-			"Enabled": false
-		},
-		{
 			"Name": "Speech",
 			"Enabled": true
 		},
@@ -109,7 +97,7 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/74f8c77559184d1f8f2c5e3117f44fdc"
 		},
 		{
-			"Name": "OmniverseLiveLink",
+			"Name": "NV_ACE_Reference",
 			"Enabled": true
 		},
 		{
@@ -119,6 +107,19 @@
 			"SupportedTargetPlatforms": [
 				"Win64"
 			]
+		},
+		{
+			"Name": "DLSS",
+			"Enabled": true,
+			"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/nvidia-dlss"
+		},
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": true
+		},
+		{
+			"Name": "MoviePipelineMaskRenderPass",
+			"Enabled": true
 		}
 	]
 }

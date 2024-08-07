@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class personaCoreEditorTarget : TargetRules
+public class PersonaAvatarEditorTarget : TargetRules
 {
-	public personaCoreEditorTarget(TargetInfo Target) : base(Target)
+	public PersonaAvatarEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V4;
 
-		ExtraModuleNames.AddRange( new string[] { "personaCore" } );
+		ExtraModuleNames.AddRange( new string[] { "PersonaAvatar" } );
 	}
 }
