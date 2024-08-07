@@ -57,7 +57,9 @@ Saved/SaveGames/PluginUpdateSaveData.sav
 /Plugins/OWLLivestreamingToolkit
 /Plugins/VaRestPlugin
 /Plugins/Ace
+/Plugins/DLSS
 /Plugins/Developer/*
+/Plugins/NV_*
 
 #################################
 # File types #
