@@ -124,6 +124,14 @@
 		{
 			"Name": "NaniteDisplacedMesh",
 			"Enabled": true
+		},
+		{
+			"Name": "VirtualCamera",
+			"Enabled": true
+		},
+		{
+			"Name": "VirtualCameraCore",
+			"Enabled": true
 		}
 	]
 }
